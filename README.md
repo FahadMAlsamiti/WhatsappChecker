@@ -1,3 +1,6 @@
+ملف README.md
+markdown
+نسخ الكود
 # WhatsApp Number Checker  
 > **A Python-based program to validate WhatsApp numbers via WhatsApp Web.**  
 > **برنامج بايثون للتحقق من أرقام الواتساب باستخدام واتساب ويب.**
@@ -64,3 +67,68 @@ Run the following command:
 ```bash
 sudo apt-get install python3 python3-pip  # Linux
 brew install python  # macOS
+2. Verify Python Installation | التحقق من تثبيت بايثون
+Run the following command:
+
+bash
+نسخ الكود
+python --version
+3. Install Required Libraries | تثبيت مكتبات بايثون المطلوبة
+Run this command:
+
+bash
+نسخ الكود
+pip install selenium webdriver-manager psutil
+4. Install Firefox | تثبيت متصفح فايرفوكس
+Windows
+Download Firefox from firefox.com.
+
+Linux
+bash
+نسخ الكود
+sudo apt-get install firefox
+macOS
+bash
+نسخ الكود
+brew install --cask firefox
+5. Run the Program | تشغيل البرنامج
+Run the program using this command:
+
+bash
+نسخ الكود
+python whatsapp_check.py
+Usage | كيفية الاستخدام
+Prepare a text file (.txt) containing the phone numbers you wish to validate. Each number should be on a separate line.
+
+Launch the program and log in to WhatsApp Web when prompted.
+
+Select the file with numbers and choose an output directory to save the results.
+
+The program will process the numbers and save the valid ones in the specified output file.
+
+قم بتحضير ملف نصي (.txt) يحتوي على أرقام الهواتف التي تريد التحقق منها. يجب أن يكون كل رقم في سطر منفصل.
+
+شغل البرنامج وقم بتسجيل الدخول إلى واتساب ويب عند طلب ذلك.
+
+اختر ملف الأرقام وحدد مجلدًا لحفظ النتائج.
+
+سيقوم البرنامج بمعالجة الأرقام وحفظ الأرقام الصالحة في الملف المحدد.
+
+Troubleshooting | استكشاف الأخطاء
+Error: Module Not Found
+Run this command:
+
+bash
+نسخ الكود
+pip install <missing_library>
+Browser Not Found
+Ensure that Firefox is installed and added to the system PATH.
+
+Connection Timeout
+Check your internet connection and restart the program.
+
+License | الرخصة
+This project is licensed under the MIT License.
+هذا المشروع مرخص بموجب رخصة MIT.
+
+yaml
