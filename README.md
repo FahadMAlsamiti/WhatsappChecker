@@ -57,8 +57,8 @@ The **WhatsApp Number Checker** is a tool designed to verify the availability of
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/FahadMAlsamiti/WhatsappChecker.git
+   cd WhatsappChecker-main
    ```
 2. Install required Python libraries:
    ```bash
